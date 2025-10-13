@@ -125,3 +125,42 @@ footer {
   color: black;
   text-align: center;
   padding:
+
+    /* CURIOSITÀ */
+#curiosita {
+  margin: 2rem auto;
+  background: black;
+  padding: 2rem;
+  border-radius: 2rem;
+  max-width: 900px;
+}
+
+#curiosita h2 {
+  text-align: center;
+  color: #E7A702;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
+.curiosity {
+  background: #222;
+  padding: 1.2rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.curiosity h3 {
+  color: #E7A702;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.curiosity p {
+  color: #ddd;
+  line-height: 1.4;
+  font-size: 1rem;
+  margin: 0;
+}
+
