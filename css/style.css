@@ -231,4 +231,9 @@ footer {
   .curiosity p {
     font-size: 0.9rem;
   }
+
+  /* riallineamento frecce gallery su mobile */
+  .gallery-arrows {
+    top: -0.5rem;
+  }
 }
