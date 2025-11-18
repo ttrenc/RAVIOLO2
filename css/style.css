@@ -144,14 +144,20 @@ section h2 {
   text-decoration: none;
 }
 
-/* FOOTER */
+/* AGGIUNTA EMOJI 👨‍💻 PER INSTAGRAM */
+#contatti a.instagram::after {
+  content: " 👨‍💻";
+}
+
+/* FOOTER – rimpicciolito */
 footer {
   background: white;
   color: black;
   text-align: center;
-  padding: 1rem;
+  padding: 0.7rem; /* ridotto */
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+  font-size: 0.9rem; /* più piccolo */
 }
 
 /* CURIOSITÀ */
@@ -232,8 +238,12 @@ footer {
     font-size: 0.9rem;
   }
 
-  /* riallineamento frecce gallery su mobile */
+  /* migliore riallineamento frecce gallery su mobile */
   .gallery-arrows {
-    top: -0.5rem;
+    top: -0.2rem;
+  }
+
+  .gallery-arrows .arrow {
+    font-size: 1.3rem;
   }
 }
