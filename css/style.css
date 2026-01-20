@@ -128,14 +128,6 @@ section h2 {
   color: #ddd;
 }
 
-/* EVENTI */
-.event {
-  background: #222;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
-
 /* CONTATTI */
 #contatti p, #contatti a {
   text-align: center;
